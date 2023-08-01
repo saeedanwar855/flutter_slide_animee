@@ -46,6 +46,7 @@ class SlidingCard extends StatelessWidget {
                 child: CardContent(
                   name: name,
                   date: date,
+                  offset: null,
                 ),
               ),
             ],
