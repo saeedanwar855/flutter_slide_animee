@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/presentation/photo_effect/SlidingCardView.dart';
+import 'package:untitled1/presentation/Practice/animation_practice.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SlidingCardsView(),
+      home: Carroussel(),
     );
   }
 }
